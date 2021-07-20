@@ -1,0 +1,23 @@
+/venv/
+venv/
+
+.idea/
+ __pycache__/
+*.pyo
+*.pyc
+
+# Created by https://www.gitignore.io
+
+### OSX ###
+.DS_Store
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+env/
+
+db.sqlite3
