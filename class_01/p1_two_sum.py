@@ -1,10 +1,7 @@
+# Time Complexity O(n^2) and Space Complexity O(1)
+
 class Solution(object):
     def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
         a = nums
         target = target
         start = 0
