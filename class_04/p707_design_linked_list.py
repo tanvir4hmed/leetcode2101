@@ -2,10 +2,9 @@
 # Memory Usage: 14.1 MB, less than 53.25% of Python online submissions for Design Linked List.
 
 class ListNode(object):
-
-    def __init__(self, value):
-        self.val = value
-        self.next = None
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
 
 class MyLinkedList(object):
